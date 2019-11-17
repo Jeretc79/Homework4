@@ -1,26 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-
+    <script src="script.js"></script>
 
 </head>
+
 <body>
-        <p id="demo"></p>
-        <script>
-        document.getElementById("demo").innerHTML = 
-        </script>
-        
-        <div id="quiz"></div>
-        <button id="submit">Submit Quiz</button>
-        <div id="results"></div>
 
-        
-        
+    <form onSubmit="submitQuiz(this);">
+        <div>
 
-    
+            <label>Question 1: What will the result iof the inner HTML be?</label><br>
+            <input type="radio" name="q1" value="1" />a:5+6<br>
+            <input type="radio" name="q1" value="2" />b:56<br>
+            <input type="radio" name="q1" value="3" />c:11<br>
+            <input type="radio" name="q1" value="4" />d:demo<br>
+            
+        </div>
+
+        <br></br>
+        <div>
+            <label>Question 2: Are JavaScript indicators case-sensitive?</label><br>
+            <input type="radio" name="q2" value="2" />a:Yes<br>
+            <input type="radio" name="q2" value="2" />b:No<br>
+            <input type="radio" name="q2" value="2" />c:Maybe<br>
+            <input type="radio" name="q2" value="2" />d:Who Cares?<br>
+           
+        </div>
+
+        <br></br>
+        <div>
+            <label>Question 3: What will the Function product of a and b result in?</label><br>
+            <input type="radio" name="q3" value="3" />a:a+b<br>
+            <input type="radio" name="q3" value="3" />b:ab<br>
+            <input type="radio" name="q3" value="3" />c:12<br>
+            <input type="radio" name="q3" value="3" />d:7<br>
+            
+        </div>
+
+        <br></br>
+        <div>
+            <label>Question 4: What is an Array?</label><br>
+            <input type="radio" name="q4" value="4" />a:A special variable that can hold more that one value at a time<br>
+            <input type="radio" name="q4" value="4" />b:A list of numbers<br>
+            <input type="radio" name="q4" value="4" />c:A variable cantaining a list of dogs<br>
+            <input type="radio" name="q4" value="4" />d:All of the above?<br>
+            
+        </div>
+
+        <br></br>
+        <div>
+            <label>Question 5: A Boolean can stand for what?</label><br>
+            <input type="radio" name="q5" value="5" />a:Yes/No<br>
+            <input type="radio" name="q5" value="5" />b:Maybe<br>
+            <input type="radio" name="q5" value="5" />c:Hot/Cold/Medium<br>
+            <input type="radio" name="q5" value="5" />d:None of the above<br>
+            
+        </div>
+
+        <br></br>
+
+        <input type="submit">
+    </form>
+
+
+<div id="results"></div>
+
+
 </body>
+
 </html>
