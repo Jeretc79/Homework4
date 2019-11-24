@@ -1,0 +1,51 @@
+.navbar-brand {
+    padding-bottom: 10px;
+    background-color: teal;
+    color-adjust: teal;
+}
+.container {
+    margin-top: 40px;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.content {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: inline-block;
+    width: 65%;
+}
+body {
+    background-color: #72b861;
+}
+.time {
+    float: right;
+    font-size: 20px;
+    padding: 5px 5px 0px 0px;
+}
+button {
+    padding: 5px 5px 5px 5px;
+    margin: 5px 0px 5px 0px;
+    background-color: teal;
+    border-radius: 10px;
+    color: white;
+}
+.questionDiv {
+    display: none;
+}
+.checkAns {
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-left: 50px;
+    font-style: italic;
+    color: #777777;
+}
+.gameOver {
+    display: none;
+    text-align: center!important;
+}
+#backToGame {
+    display: none;
+    float: left;
+}
